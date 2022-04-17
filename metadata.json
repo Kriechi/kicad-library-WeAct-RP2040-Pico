@@ -1,0 +1,35 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "WeAct RP2040 Pico footprint and symbol",
+    "description": "Footprint and symbol libraries for the WeAct RP2040 Pico module.",
+    "description_full": "Footprint and symbol libraries for the WeAct RP2040 Pico module.",
+    "identifier": "com.github.kriechi.kicad-library-WeAct-RP2040-Pico",
+    "type": "library",
+    "author": {
+        "name": "Thomas Kriechbaumer",
+        "contact": {
+            "web": "https://github.com/Kriechi"
+        }
+    },
+    "maintainer": {
+        "name": "Thomas Kriechbaumer",
+        "contact": {
+            "web": "https://github.com/Kriechi"
+        }
+    },
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/Kriechi/kicad-library-WeAct-RP2040-Pico"
+    },
+    "versions": [
+        {
+            "version": "1.0",
+            "status": "stable",
+            "kicad_version": "6.0",
+            "download_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+            "download_size": 0,
+            "download_url": "https://github.com/Kriechi/kicad-library-WeAct-RP2040-Pico/archive/refs/heads/main.zip",
+            "install_size": 0
+        }
+    ]
+}

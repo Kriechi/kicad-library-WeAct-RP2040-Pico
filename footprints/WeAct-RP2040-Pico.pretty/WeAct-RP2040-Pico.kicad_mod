@@ -73,7 +73,7 @@
   (pad "42" thru_hole rect (at -1.397 22.987 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 305d6ffa-eefa-443f-bbde-7d514530d8cc))
   (pad "43" thru_hole rect (at 1.143 22.987 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 03c453bb-ceb2-4f40-b66b-bcbd520ce828))
   (pad "44" thru_hole rect (at 3.683 22.987 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp d6a3d0da-6db1-4775-ac34-1e881a2b9b4b))
-  (model "WeAct-RP2040-Pico.step"
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_kriechi_kicad-library-WeAct-RP2040-Pico/WeAct-RP2040-Pico.step"
     (offset (xyz -140.77 63.47 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
