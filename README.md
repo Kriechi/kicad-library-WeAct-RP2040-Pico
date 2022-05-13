@@ -12,12 +12,40 @@ See this Raspberry Pi forum post about the module: https://forums.raspberrypi.co
 
 ## Installing this library
 
-You can install this library via the KiCad 6 **Plugin and Content Manager**:
+First, you need to download or clone this repository and create a KiCad 6-compatible archive file:
+```bash
+git clone https://github.com/Kriechi/kicad-library-WeAct-RP2040-Pico.git
+cd kicad-library-WeAct-RP2040-Pico.git
+zip -r ~/WeAct-RP2040-Pico.zip *
+```
 
-* Get the latest archive [here](https://github.com/Kriechi/kicad-library-WeAct-RP2040-Pico/archive/refs/heads/main.zip)
+Using the GitHub repository page `Code -> Download ZIP` feature will **not** produce you compatible archive file!
+
+A correct archive file contains this folder structure and files:
+```
+$ unzip -l ~/WeAct-RP2040-Pico.zip
+Archive:  /home/me/WeAct-RP2040-Pico.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+        0  01-23-2022 12:00   3dmodels/
+  8371761  01-23-2022 12:00   3dmodels/WeAct-RP2040-Pico.step
+     1076  01-23-2022 12:00   LICENSE
+     1783  01-23-2022 12:00   README.md
+        0  01-23-2022 12:00   footprints/
+        0  01-23-2022 12:00   footprints/WeAct-RP2040-Pico.pretty/
+     8964  01-23-2022 12:00   footprints/WeAct-RP2040-Pico.pretty/WeAct-RP2040-Pico.kicad_mod
+     1222  01-23-2022 12:00   metadata.json
+        0  01-23-2022 12:00   symbols/
+    11926  01-23-2022 12:00   symbols/WeAct-RP2040-Pico.kicad_sym
+---------                     -------
+  8396732                     10 files
+```
+
+Now, you can install this library via the KiCad 6 **Plugin and Content Manager**:
+
 * Open your KiCad main window, select the **Plugin and Content Manager**
 * Click the **Install from File...** button
-* Select the just downloaded archive file
+* Select the just created archive file
 * Add the following entries to your Global or Project footprint & symbol libraries
   * **Manage Footprint Libraries...** from the menu bar, and add a new entry
     * Nickname: WeAct-RP2040-Pico
