@@ -6,10 +6,10 @@
     (property "Value" "WeAct-RP2040-Pico" (id 1) (at 0 19.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 0 0 0)
+    (property "Footprint" "WeAct-RP2040-Pico:WeAct-RP2040-Pico" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
+    (property "Datasheet" "https://github.com/WeActStudio/WeActStudio.RP2040CoreBoard/tree/master" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "WeAct-RP2040-Pico_0_0"

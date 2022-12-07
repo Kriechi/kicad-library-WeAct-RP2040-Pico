@@ -19,7 +19,7 @@ cd kicad-library-WeAct-RP2040-Pico.git
 zip -r ~/WeAct-RP2040-Pico.zip *
 ```
 
-Using the GitHub repository page `Code -> Download ZIP` feature will **not** produce you compatible archive file!
+Using the GitHub repository page `Code -> Download ZIP` feature will **not** produce a compatible archive file!
 
 A correct archive file contains this folder structure and files:
 ```
